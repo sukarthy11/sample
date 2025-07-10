@@ -1,0 +1,88 @@
+You said:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Startup</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg bg-white shadow-sm">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <span class="ms-2 fw-bold">Startup</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav align-items-center">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Home</a>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+          <li class="nav-item">
+            <a class="btn btn-join ms-3 px-3" href="#">Join Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero-section d-flex align-items-center">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <small class="text-warning fw-semibold">WE ARE NEW BUT DOING GREAT</small>
+          <h1 class="fw-bold mt-3" style="font-family: 'Arial Black', Arial, sans-serif;">
+            We give the power<br />back to the user
+          </h1>
+          <p>
+            Content marketing is nothing but offering users value.<br />
+            It is not just about traffic minion customers.
+          </p>
+          <button class="btn btn-explore text-white px-4 py-2">Explore Us</button>
+        </div>
+        <div class="col-md-6">
+          <img src="https://plus.unsplash.com/premium_photo-1661762857872-77960f34d91b?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cHJlc2VudGF0aW9ufGVufDB8fDB8fHww" alt="Working Together" class="img-fluid rounded" />
+        </div>
+      </div>
+    </div>
+  </section>
+  <div>
+    <h1 style="text-align: center;">service we provide</h1>
+  </div>
+  <div class="d-flex mt-4 gap-4 "style="margin-left: 550px;">
+    <div class="card" style="width: 10rem;">
+        <img src="data:image/png;base64,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" class="card-img-top h-50" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Web Design</h5>
+          <p class="card-text">Content marketing is nothing but offering users value</p>
+          <a href="#" class="btn btn-primary">Let's Talk</a>
+        </div>
+      </div><div class="card" style="width: 10rem;">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKesdwSZhAJqy96S1i9IaPv1nnUMaqyxsI-A&s" class="card-img-top h-50" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Web Design</h5>
+          <p class="card-text">Content marketing is nothing but offering users value</p>
+          <a href="#" class="btn btn-primary">Let's Talk</a>
+        </div>
+      </div><div class="card" style="width: 10rem;">
+        <img src="data:image/png;base64,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" class="card-img-top h-50" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">E-Commerce</h5>
+          <p class="card-text">Content marketing is nothing but offering users value</p>
+          <a href="#" class="btn btn-primary">Let's Talk</a>
+        </div>
+      </div>
+  </div>
+  
+</body>
+</html>
